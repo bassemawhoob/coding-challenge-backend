@@ -1,4 +1,4 @@
-# Badi Coding Challenge - Backend (Ruby on Rails)
+# Badi Coding Challenge Submission - Backend (Ruby on Rails)
 ![Zombies at Badi](https://user-images.githubusercontent.com/4199523/33260366-e54216aa-d35f-11e7-8442-8d9e1cd67d88.jpg)
 
 ## The context
