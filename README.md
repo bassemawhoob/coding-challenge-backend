@@ -1,14 +1,12 @@
-# Badi Coding Challenge Submission - Backend (Ruby on Rails)
+# Badi Coding Challenge Submission - Bassem Mawhoob
 ![Zombies at Badi](https://user-images.githubusercontent.com/4199523/33260366-e54216aa-d35f-11e7-8442-8d9e1cd67d88.jpg)
 
 ## The context
-You are a scientist in a post-apocalyptic world. In your lab you have plenty of human tissues, yet not so many brains. For this reason, you decide to create zombies, which you then equip with armors and weapons. Why would you do that? Well, we cannot tell you. The only thing you need to know is that you are a crazy scientist playing on the edge of life and death.
+My name Grizzly Bow and I am a humozombotic scientist specializing in micro-genetic transformation (atleast, that's what they told me in college). I was anonymously informed that the world need my expertise to defend or destroy it, no clue yet. That's why I decided spread the world my latest creation, Zombie 1.0.1.1a. Below you'll find my secrets on how this marvelous creation took place.
 
-## Instructions
+## Documentation & Usage
 
-* Fork this repo and clone your fork in your local machine. Alternatively, if you prefer to keep your challenge private, just download the code of this repo and send the final result to jobs@badiapp.com.
-* The challenge is on! Implement the 6 steps described below;
-* Create a pull request. 
+* A full documentation of the API along with a complete set of example requests for this project are at https://documenter.getpostman.com/view/3752258/badi-backend-challenge/RVfyBpWs.
 
 ## What we expect
 * Build a performant, clean and well structured solution;
