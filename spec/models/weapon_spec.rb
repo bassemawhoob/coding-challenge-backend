@@ -1,5 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Weapon, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  	# Association test
+  	# ensure Zombie model has a 1:m relationship with the ZombieWeapon model
+    it { should have_many(:zombie_weapons).dependent(:destroy) }
 end

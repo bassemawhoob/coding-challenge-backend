@@ -1,5 +1,6 @@
 require 'rails_helper'
-
 RSpec.describe Armor, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+	# Association test
+  	# ensure Zombie model has a 1:m relationship with the ZombieArmor model
+    it { should have_many(:zombie_armors).dependent(:destroy) }
 end
