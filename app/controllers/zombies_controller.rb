@@ -11,7 +11,7 @@ class ZombiesController < ApplicationController
 		@zombies = @zombies.turn_date(params[:turn_date]) if params[:turn_date].present?
 		@zombies = @zombies.weapons(params[:weapons].split(',')) if params[:weapons].present?
 		@zombies = @zombies.armors(params[:armors].split(',')) if params[:armors].present?
-		json_response(@zombies.as_json)
+		json_response(@zombies)
 	end
 
 	# POST /zombies
