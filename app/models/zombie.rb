@@ -6,6 +6,8 @@ class Zombie < ApplicationRecord
 	has_many :weapons, through: :zombie_weapons
 
 	validates_presence_of :name, :hit_points, :brains_eaten, :speed, :turn_date
+	#Basic name validation regex allowing characters only
+	validates_format_of :name, :with => /\A[^0-9`!@#\$%\^&*+_=]+\z/
 
   	scope :starts_with, -> (name) { where("name like ?", "#{name}%")}
   	scope :hit_points, -> (hit_points) { where hit_points: hit_points}
