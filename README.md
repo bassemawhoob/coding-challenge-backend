@@ -8,9 +8,9 @@ My name Grizzly Bow and I am a humozombotic scientist specializing in micro-gene
 * A full documentation of the project's API along with a complete set of example requests for this project are at https://documenter.getpostman.com/view/3752258/badi-backend-challenge/RVfyBpWs
 
 ## Technical Discussion
-* The project's core is single controller for the Zombie resource with 2 concerns that are heavily used accross the controller. The project depended on RSpec (I find it more expressive) and factories for testing. 
+* The project's core is single controller for the Zombie resource with 2 concerns that are heavily used accross the controller. The project depended on RSpec (I find it more expressive) and factories for testing and has been deployed to Heroku. 
 * Tests first... always. Generating controllers by default generates controller specs. However, no controller specs have been written during this project. Request specs were used instead. Request specs are designed to drive behavior through the full stack, including routing. This means they can hit the applications' HTTP endpoints as opposed to controller specs which call methods directly. Since this is an an API application, this is exactly the kind of behavior I wanted for my tests.
-* No form of rate limitations or security measures have been taken for demonstration purposes only
+* No form of rate limitations or security measures have been taken for demonstration purposes only.
 * Strong parameters and scopes have been used everywhere to maintain data integrity and search validity.
 * The project had little choices to be made but feel free to ask about anything related.
 
