@@ -25,6 +25,9 @@ gem 'puma', '~> 3.7'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# Use Faker to create seeds or factories
+gem 'faker', git: 'https://github.com/stympy/faker'
+
 group :test do
   # A fixtures replacement with a more straightforward syntax. 
   gem 'factory_girl_rails', '~> 4.0'
@@ -39,8 +42,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Use Rspec as testing tool
   gem 'rspec-rails'
-  # Use Faker to create seeds or factories
-  gem 'faker', git: 'https://github.com/stympy/faker'
 end
 
 group :development do
