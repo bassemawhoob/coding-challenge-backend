@@ -2,7 +2,7 @@
 ![Zombies at Badi](https://user-images.githubusercontent.com/4199523/33260366-e54216aa-d35f-11e7-8442-8d9e1cd67d88.jpg)
 
 ## The context
-My name Grizzly Bow and I am a humozombotic scientist specializing in micro-genetic transformation (atleast, that's what they told me in college). I was anonymously informed that the world need my expertise to defend or destroy it, not sure yet. That's why I decided to invade the world with my latest creation, Zombie 1.0.3.1a. Below you'll find my secrets on how this marvelous creation took place. http://badi-bmaw.herokuapp.com/
+My name Grizzly Bow and I am a humozombotic scientist specializing in micro-genetic transformation (atleast, that's what they told me in college). I was anonymously informed that the world need my expertise to defend or destroy it, not sure yet. That's why I decided to invade the world with my latest creation, Zombie 1.0.3.1a. Below you'll find my secrets on how this marvelous creation took place.
 
 ## Documentation & Usage
 * A full documentation of the project's API along with a complete set of example requests for this project are at https://documenter.getpostman.com/view/3752258/badi-backend-challenge/RVfyBpWs
